@@ -10,6 +10,7 @@ get '/' do
 end
 
 get '/login' do
+	session[:identity] ? session.delete(:identity) : ''
 	'<form action="/login" method="POST">
 	Enter your name : <input type="text" name="identity">
 	<button>Sign In</button>
@@ -20,3 +21,4 @@ post '/login' do
 	session[:identity] = params['identity']
 	redirect to '/'
 end
+
