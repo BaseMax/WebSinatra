@@ -14,6 +14,6 @@ get '/login' do
 end
 
 post '/login' do
-	session[:identity] = params['username']
+	session[:identity] = params['identity']
 	redirect to '/'
 end
