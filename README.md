@@ -1,4 +1,5 @@
 # Web Sinatra
+
 The Sample web project using ruby sinatra.
 
 - **GET** /
@@ -21,7 +22,3 @@ Parsing documentation for sinatra-2.0.5
 Done installing documentation for sinatra after 1 seconds
 1 gem installed
 ```
-
-
-
-
