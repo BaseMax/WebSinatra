@@ -1,4 +1,4 @@
-# WebSinatra
+# Web Sinatra
 The Sample web project using ruby sinatra.
 
 - **GET** /
