@@ -7,7 +7,7 @@ The Sample web project using ruby sinatra.
 - **GET** /login
 - **POST** /login
 
-# Getting start in UNIX BSD
+# Getting start in BSD UNIX
 
 **$ sudo pkg search ruby24-gems**
 ```
